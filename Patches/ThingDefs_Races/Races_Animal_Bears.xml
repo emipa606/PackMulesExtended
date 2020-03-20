@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- NOTE: The amount of weight an animal can carry is not configurable outside of an Assembly modification -->
+
+<Patch>
+  <!-- Grizzly Bear Patch -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Bear_Grizzly"]/race/packAnimal</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Bear_Grizzly"]/race</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Polar Bear Patch -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Bear_Polar"]/race/packAnimal</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Bear_Polar"]/race</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>

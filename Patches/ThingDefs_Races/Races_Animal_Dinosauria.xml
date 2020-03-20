@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- NOTE: The amount of weight an animal can carry is not configurable outside of an Assembly modification -->
+
+<Patch>
+  <!-- TyrannosaurusRex Patch -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="TyrannosaurusRex"]/race/packAnimal</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="TyrannosaurusRex"]/race</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+	<Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="TyrannosaurusRex"]/race/packAnimal</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="TyrannosaurusRex"]/race/packAnimal</xpath>
+				<value>
+					<packAnimal>true</packAnimal>
+				</value>
+      </li>
+    </operations>
+  </Operation>
+
+	<!-- Carnotaurus Patch -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[defName="Carnotaurus"]/race/packAnimal</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Carnotaurus"]/race</xpath>
+				<value>
+					<packAnimal>true</packAnimal>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[defName="Carnotaurus"]/race/packAnimal</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Carnotaurus"]/race/packAnimal</xpath>
+				<value>
+					<packAnimal>true</packAnimal>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+  <!-- Yutyrannus Patch -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Yutyrannus"]/race/packAnimal</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Yutyrannus"]/race</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Yutyrannus"]/race/packAnimal</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Yutyrannus"]/race/packAnimal</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Baryonyx Patch -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Baryonyx"]/race/packAnimal</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Baryonyx"]/race</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Baryonyx"]/race/packAnimal</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Baryonyx"]/race/packAnimal</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Allosaurus Patch -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Allosaurus"]/race/packAnimal</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Allosaurus"]/race</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Allosaurus"]/race/packAnimal</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Allosaurus"]/race/packAnimal</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Spinosaurus Patch -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Spinosaurus"]/race/packAnimal</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Spinosaurus"]/race</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Spinosaurus"]/race/packAnimal</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Spinosaurus"]/race/packAnimal</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Brontosaurus Patch -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Brontosaurus"]/race/packAnimal</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Brontosaurus"]/race</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Brontosaurus"]/race/packAnimal</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Brontosaurus"]/race/packAnimal</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Brachiosaurus Patch -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Brachiosaurus"]/race/packAnimal</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Brachiosaurus"]/race</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Brachiosaurus"]/race/packAnimal</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Brachiosaurus"]/race/packAnimal</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Diplodocus Patch -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Diplodocus"]/race/packAnimal</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Diplodocus"]/race</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Diplodocus"]/race/packAnimal</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Diplodocus"]/race/packAnimal</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>

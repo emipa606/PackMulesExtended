@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Pack Mules Extended (Continued)</name>
+  	<packageId>Mlie.PackMulesExtended</packageId>
+	<author>Mlie</author>
+	<url>https://github.com/emipa606/PackMulesExtended</url>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<modDependencies />
+	<loadAfter>
+		<li>spincrus.dinosauria</li>
+	</loadAfter>
+	<description>Update and combining of Leighs mods for RimWorld 1.1
+https://steamcommunity.com/sharedfiles/filedetails/?id=1501052499
+https://steamcommunity.com/sharedfiles/filedetails/?id=1503795254
+
+Support-chat:
+https://discord.gg/SuhwVpM
+
+Non-steam version:
+https://github.com/emipa606/PackMulesExtended
+	
+--- Original Description ---
+Description
+
+NOTE: I didn't notice any glaring changes between 0.19 and 1.0 that affects pack animals, so those still playing on 0.19 you can safely enable this mod despite the version mismatch. I just don't want to maintain two seperate mods if it isn't necessary!
+
+Vanilla animals:
+
+Ever wondered why your not so bright, cannon fodder Alpaca's are able to carry your caravan's supplies but your super intelligent Thumbro can't? It doesn't make sense! That's why this mod extends pack animal capabilities to apply to other larger animals. Currently the mod extends the following animals.
+
+Supported Animals
+
+- Bears (Grizzly and Polar)
+- Cow
+- Megasloth
+- Pig
+- Thrumbo
+- Rhinoceros
+
+Dinosauria:
+
+Ruar!!! Dinosaurs! This is a Pack Mules Extended patch for spincrus' beautiful Dinosauria mod. It extends some of the larger Dinosaurs so that you can throw stuff on their backs and use them in caravans.
+
+Hand Drawn Art
+
+Originally I was going to just throw the Dromedary pack on all of the dinosaurs and, once I was done, I realize how much it diminished the beautiful art that was the dinos. So before uploading the mod, I reached out to my bestie to see if she wanted to help out and, the result was hand drawn packs for all of the supported dinos. Please let us know what you think about the art!
+
+Supported Dinosaurs
+
+- Tyrannosaurus Rex
+- Spinosaurus
+- Carnotaurus
+- Yutyrannus
+- Baryonyx
+- Allosaurus
+- Brontosaurus
+- Brachiosaurus
+- Diplodocus
+
+Compatibility
+
+- Existing save compatible
+- Can safely remove (I would recall all caravan's first!)
+- Low mod conflict chance if loaded last (Reminder: Load me last!)
+- Want a custom animal added? Leave a comment with a link to the mod, and I'll look into it!
+
+Similar Mods and Extension Mods
+
+Pack Mules Extended - Dinosauria - Stand-Alone Patch for Dinosauria
+Vanilla Animal Overhal (B18) - Does everything this mod does and more.
+Caravan Dogs (B19) - Original Mod (B17) - Makes canines packable.
+Thrumbo Extension (B19) - Increases Thrumbo carry weight and does other cool Thrumbo stuff.
+
+
+Original Mod
+
+This mod was 100% inspired by Dragoon_103's Packified Animals mod. While no resources were directly taken from his / her mod, this mod wouldn't exist without his / her idea and general approach. If he / she requests that I take this mod down, I will respectfully do so!
+
+Original Mod: Packified Animals (B17)</description>
+</ModMetaData>

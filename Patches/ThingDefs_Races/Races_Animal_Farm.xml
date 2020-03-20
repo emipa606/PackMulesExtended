@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- NOTE: The amount of weight an animal can carry is not configurable outside of an Assembly modification -->
+
+<Patch>
+  <!-- Cow Patch -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Cow"]/race/packAnimal</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Cow"]/race</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Pig Patch -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Pig"]/race/packAnimal</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Pig"]/race</xpath>
+        <value>
+          <packAnimal>true</packAnimal>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>
